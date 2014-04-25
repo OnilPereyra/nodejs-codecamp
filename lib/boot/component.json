@@ -1,0 +1,19 @@
+{
+  "name": "boot",
+  "description": "Application Booting component.",
+  "dependencies": {
+    "visionmedia/page.js": "*"
+  },
+  "local": [
+    "homepage",
+    "restricted",
+    "user"
+  ],
+  "scripts": [ "boot.js" ],
+  "styles": ["index.styl"],
+  "images": [
+    "images/bg.jpg"
+  ],
+  "main": "boot.js",
+  "license": "MIT"
+}

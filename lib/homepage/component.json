@@ -1,0 +1,13 @@
+{
+  "name": "homepage",
+  "description": "Homepage page.",
+  "dependencies": {
+    "component/domify": "*",
+    "visionmedia/page.js": "*",
+    "visionmedia/jade": "*",
+    "yields/empty": "*"
+  },
+  "scripts": ["homepage.js"],
+  "templates": [ "splash.jade" ],
+  "main": "homepage.js"
+}
